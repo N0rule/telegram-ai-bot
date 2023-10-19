@@ -1,0 +1,31 @@
+{
+  "name": "telegram-ai-bot",
+  "version": "0.0.1",
+  "description": "telegram bot with chatgpt and dalle intigration",
+  "main": "bot.js",
+  "scripts": {
+    "dev": "nodemon .",
+    "start": "node ."
+  },
+  "keywords": [
+    "ai",
+    "telegram",
+    "bot",
+    "chatgpt"
+  ],
+  "author": "N0rule",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "module-alias": "^2.2.3",
+    "nodemon": "^3.0.1",
+    "openai": "^3.2.1",
+    "pino": "^8.15.3",
+    "pino-pretty": "^10.2.0",
+    "telegraf": "^4.14.0"
+  },
+  "_moduleAliases": {
+    "@root": ".",
+    "@handlers": "handlers/"
+  }
+}
