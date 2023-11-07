@@ -5,11 +5,12 @@
 </h1>
 
 
-<p align="center"> With this bot, you can ask question to chatGPT in telegram.</p>
+<p align="center"> With this bot, you can ask question to chatGPT in telegram and generate Images!.</p>
 <br>
 
 ## ✨ Features ✨
-- ask questions
+- Ask questions
+- Generate images
 ## 🚀 Getting Started
 
 - work in progress

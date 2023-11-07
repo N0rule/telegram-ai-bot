@@ -11,7 +11,7 @@ module.exports = class Validator {
       process.exit(1);
     }
     if (!process.env.OPENAI_API_BASE) {
-        error("env: OPENAI_API_BASE is missing. AI commands won't work");
+        error("env: OPENAI_API_BASE is missing.\nIf you are using default api, use https://api.openai.com/v1.\nAI commands won't work");
         process.exit(1);
       }
       if (!process.env.OPENAI_API_KEY) {
